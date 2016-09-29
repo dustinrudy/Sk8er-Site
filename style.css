@@ -33,10 +33,9 @@ html {
 
 .column {
 	background-color: white;
-	display: inline-block;
+	float: left;
 	width: 325px;
-	height: 350px;
-	clear: both;
+	height: 300px;
 	margin-left: 5px;
 	margin-top: 50px
 
@@ -44,6 +43,38 @@ html {
 
 #s8ernews {
 	margin-left: 112px;
+
+}
+
+#header {
+	font-family: Helvetica Neue, sans-serif;
+	font-weight: bold;
+	color: #363731;
+	font-size: 24px;
+	margin: 25px 25px;
+	text-indent: inherit;
+	text-align: left;
+	text-indent: none;
+	margin-top: 25px;
+
+}
+
+#date {
+	font-family: Helvetica Neue, sans-serif;
+	font-weight: normal;
+	color: #BBBBBB;
+	font-size: 14px;
+	margin: 5px 25px;
+}
+
+#textbody {
+	font-family: Helvetica Neue, sans-serif;
+	font-weight: normal;
+	color: #6B6B6B;
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: bold;
+	margin-left: 25px;
 
 }
 
