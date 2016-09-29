@@ -4,8 +4,12 @@ html {
 
 }
 
-body {
-	margin-right: 120px;
+.wrapper {
+	width: 100%;
+	max-width: 1000px;
+	display: block;
+	margin: auto;
+
 }
 
 div.socialmedia {
@@ -16,24 +20,50 @@ div.socialmedia {
 
 }
 
-.navbuttons {
-	float: right;
-	clear: right;
-	background-color: #B4292E;
-	width: 300px;
-	height: 30px;
-	margin: 20px 100px 20px 100px;
-	display: inline;
+#facebook {
+	background-image: url(images/facebook-logo-png-white-i6.png);
+	background-position: 30% center;
+	background-size: 70%;
+	background-repeat: no-repeat;
+}
+
+ul {
 	list-style-type: none;
-	text-align: center;
-	padding-top: 10px;
-	font-size: 18px;
-	color: white;
-	font-family: Helvetica;
-	font-weight: normal;
+	float: left;
+	width: 100%;
+	padding:0;
+	margin: 0;
+
 
 }
 
+.navbuttons {
+	background-color: #B4292E;
+	width: 218px;
+	height: 10px;
+	margin: 20px 5px 20px 5px;
+	display: inline-block;
+	text-align: center;
+	padding: 15px 10px 20px 10px;
+	font-size: 16px;
+	color: white;
+	font-family: Helvetica;
+	font-weight: normal; 
+	border-bottom: 5px solid rgba(132,131,129,0.75);
+
+}
+
+.navbuttons:first-child {
+	margin-left: 0px;
+
+
+}
+
+.navbuttons:last-child {
+	margin-right: 0px;
+	
+
+}
 #subscribe {
 	float: right;
 	margin: 30px 80px;
