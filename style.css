@@ -17,13 +17,35 @@ div.socialmedia {
 	width: 60px;
 	height: 60px;
 	margin: 10px 5px;
+	border-bottom: 5px solid rgba(132,131,129,0.75);
 
 }
 
 #facebook {
 	background-image: url(images/facebook-logo-png-white-i6.png);
-	background-position: 30% center;
+	background-position: 50% center;
 	background-size: 70%;
+	background-repeat: no-repeat;
+}
+
+#rssfeed {
+	background-image: url(images/rss-feed-white-md.png);
+	background-position: 60% center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+#twitter {
+	background-image: url(images/twitterLogo.png);
+	background-position: 50% center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+#youtube {
+	background-image: url(images/youtube-2048.png);
+	background-position: 50% center;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
@@ -53,6 +75,21 @@ ul {
 
 }
 
+.navbuttons:hover {
+	background-color: white;
+	width: 218px;
+	height: 10px;
+	margin: 20px 5px 20px 5px;
+	display: inline-block;
+	text-align: center;
+	padding: 15px 10px 20px 10px;
+	font-size: 16px;
+	color: #B4292E;
+	font-family: Helvetica;
+	font-weight: normal; 
+	border-bottom: 5px solid rgba(132,131,129,0.75);
+
+}
 .navbuttons:first-child {
 	margin-left: 0px;
 
@@ -71,5 +108,15 @@ ul {
 	font-family: Tahoma;
 	color: white;
 	background-color: #707071;
+	padding: 5px;
+}
+
+#subscribe:hover {
+	float: right;
+	margin: 30px 80px;
+	font-size: 12px;
+	font-family: Tahoma;
+	color: black;
+	background-color: white;
 	padding: 5px;
 }
