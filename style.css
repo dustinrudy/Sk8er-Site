@@ -1,6 +1,8 @@
 html {
 	box-sizing: border-box;
-	background-image: url(images/backgroundimg.jpg);
+	background-image: url(images/bg.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
 
 }
 
@@ -9,6 +11,39 @@ html {
 	max-width: 1000px;
 	display: block;
 	margin: auto;
+
+}
+
+.mainimage {
+	width: 974px;
+	height: 350px;
+	border: 10px solid white;
+	background-image: url(images/top-image.png);
+	background-size: 1330px;
+	background-repeat: no-repeat;
+	clear: left;
+	margin-left: 118px;
+
+}
+
+.mainimage img{
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+.column {
+	background-color: white;
+	display: inline-block;
+	width: 325px;
+	height: 350px;
+	clear: both;
+	margin-left: 5px;
+	margin-top: 50px
+
+}
+
+#s8ernews {
+	margin-left: 112px;
 
 }
 
@@ -104,19 +139,16 @@ ul {
 #subscribe {
 	float: right;
 	margin: 30px 80px;
-	font-size: 12px;
+	font-size: 16px;
 	font-family: Tahoma;
 	color: white;
-	background-color: #707071;
 	padding: 5px;
 }
 
-#subscribe:hover {
-	float: right;
-	margin: 30px 80px;
-	font-size: 12px;
-	font-family: Tahoma;
-	color: black;
-	background-color: white;
-	padding: 5px;
-}
+
+
+
+
+
+
+
