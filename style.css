@@ -193,59 +193,6 @@ li {
     height: 100%;
     padding: 15px 0px;
 }
-/*.item {
-  background:#000;
-  border:5px solid #fff;
-  color:#fff;
-  line-height:200px;
-  width:300px;
-  height:200px;
-  float:left;
-  font-family: Arial Black;
-  font-size: 42px;
-}
-
-.item:nth-child(1) {
-  clear:left;
-  width:331px;
-  height: 249px;
-  background-image: url(images/sk8er-4.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 10px;
-  line-height: 50px;
-  text-align: center;
-  display: inline;
-}
-.item:nth-child(2) {
-  float: left;
-  width:331px;
-  height: 249px;
-  background-image: url(images/sk8er-3.png);
-  background-repeat: no-repeat;
-}
-
-.item:nth-child(3) {
-  width:600px;
-  background-image: url(images/sk8er-1.png);
-  background-repeat: no-repeat;
-  display: inline;
-  
-}
-
- .item:nth-child(4) {
-   height:400px;
-   margin-top:-200px;
-   line-height:400px;
-   background-image: url(images/sk8er-2.png);
-   background-repeat: no-repeat;
- }*/
-
-
-
-
-
-}
 
 div.socialmedia {
 	float: right;
@@ -343,6 +290,18 @@ ul {
 	font-family: Tahoma;
 	color: white;
 	padding: 5px;
+}
+
+#skateboardimages {
+	background-color: white;
+    width: 971px;
+    height: 270px;
+    margin-left: 130px;
+}
+
+#skateboards > li {
+	display: inline;
+	margin: 10px;
 }
 
 
