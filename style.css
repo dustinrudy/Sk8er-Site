@@ -297,15 +297,47 @@ ul {
     width: 971px;
     height: 270px;
     margin-left: 130px;
+    float: center;
 }
 
 #skateboards > li {
 	display: inline;
 	margin: 10px;
+	float: center;
 }
 
+#contact {
+	width: 971px;
+	height: 350px;
+	background-color: white;
+	clear: both;
+	margin-left: 129px;
+	margin-top: 40px;
+	padding-top: 10px;
+}
 
+.socialmediafooter {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 10px 0px 0px 25px;
+	border-bottom: 1px solid rgba(132,131,129,0.75);
+}
 
+#contactheading {
+	font-family: Futura, sans-serif;
+	font-size: 26px;
+	color: #393A35;
+	margin: 25px;
+
+}
+
+#contactbody {
+	font-family: Tahoma, sans-serif;
+	margin: 25px;
+	color: #5F5F5F;
+	line-height: 25px;
+}
 
 
 
