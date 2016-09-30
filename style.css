@@ -155,6 +155,7 @@ li {
     font-weight: bolder;
     font-size: 36px;
     text-align: center;
+    background-position-y: -61px;
 
 }
 
@@ -283,6 +284,7 @@ ul {
 	
 
 }
+
 #subscribe {
 	float: right;
 	margin: 30px 80px;
@@ -306,6 +308,26 @@ ul {
 	float: center;
 }
 
+#skateboards {
+	padding-left: 50px;
+}
+
+.column_contact {
+	width: 50%;
+	height: 350px;
+	float: left;
+}
+
+.column_contact:nth-child(2) {
+	width: 50%;
+	height: 350px;
+	float: right;
+	margin-top: 25px;
+	margin-left: 0px;
+	justify-content: right;
+	padding-left: 50px;
+}
+
 #contact {
 	width: 971px;
 	height: 350px;
@@ -320,7 +342,7 @@ ul {
 	float: left;
 	width: 30px;
 	height: 30px;
-	margin: 10px 0px 0px 25px;
+	margin: 5px -20px 0px 25px;
 	border-bottom: 1px solid rgba(132,131,129,0.75);
 }
 
@@ -339,7 +361,45 @@ ul {
 	line-height: 25px;
 }
 
+button {
+	background-color: #B4292E;
+	width: 250px;
+	height: 10px;
+	margin: 25px 5px 10px 150px;
+	display: block;
+	text-align: center;
+	padding: 5px 10px 30px 10px;
+	font-size: 20px;
+	color: white;
+	font-family: Futura;
+	font-weight: normal; 
 
+}
 
+input {
+	color: #C2C2C2;
+	border-left: 3px solid #ABABAB;
+	border-top: 3px solid #ABABAB;
+	font-family: Futura;
+	font-size: 18px;
+	margin-bottom: 5px;
+	width: 400px;
+	margin-top: 10px;
+
+}
+
+textarea {
+	color: #C2C2C2;
+	border-left: 3px solid #ABABAB;
+	border-top: 3px solid #ABABAB;
+	font-family: Futura;
+	color: #C2C2C2;
+	border-left: 3px solid #ABABAB;
+	border-top: 3px solid #ABABAB;
+	font-family: Futura;
+	font-size: 18px;
+	margin-top: 5px;
+	width: 400px;
+}
 
 
