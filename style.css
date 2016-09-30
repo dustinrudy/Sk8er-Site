@@ -30,6 +30,11 @@ html, body {
 
 }
 
+#wrapperalign {
+	width: 1000px;
+	margin: auto;
+}
+
 .mainimage {
 	width: 974px;
 	height: 350px;
@@ -38,20 +43,20 @@ html, body {
 	background-size: 1330px;
 	background-repeat: no-repeat;
 	clear: left;
-	margin-left: 118px;
+	margin-left: 0px;
 
 }
 
 .mainimage img{
 	margin-top: 50px;
-	margin-left: 25px;
+	margin-left: 0px;
 }
 
 .column {
 	background-color: white;
 	float: left;
-	width: 330px;
-	height: 370px;
+	width: 320px;
+	height: 400px;
 	margin-left: 10px;
 	margin-top: 50px
 
@@ -59,7 +64,8 @@ html, body {
 }
 
 #s8ernews {
-	margin-left: 92px;
+	margin-left: 0px;
+	width:auto;
 
 }
 
@@ -120,94 +126,86 @@ li {
 	list-style-type: none;
 }
 
+#container {
+  text-align:center;
+}
+
+.item {
+  background:#000;
+  border:5px solid #fff;
+  color:#fff;
+  line-height:200px;
+  width:296px;
+  height:200px;
+  float:left;
+  margin: 5px;
+}
+
+.item:nth-child(3) {
+  clear:left;
+  width:600px;
+}
+
+ .item:nth-child(4) {
+   height:405px;
+   margin-top:-200px;
+   line-height:50px;
+ }
+
 #threeimgs { 
-	width: 65%;
     display: inline-block;
     float: left;
 }
 .mountain {
-	width: 301px;
-    height: 222px;
     background: url(images/sk8er-4.png) no-repeat 100% 100%;
-    display: inline;
-    float: left;
-    border: 5px solid white;
-    margin-right: 10px;
-    margin-bottom: 10px;
     font-family: Arial Black, Gadget, sans-serif;
     color: white;
     font-weight: bolder;
     font-size: 36px;
     text-align: center;
+    background-size: cover;
+    line-height: 50px;
+    padding-top: 50px;
 }
 
 .mullen {
-	width: 313px;
-    height: 222px;
     background: url(images/sk8er-3.png) no-repeat;
-    display: block;
-    border: 5px solid white;
-    float: left;
-    margin-bottom: 10px;
     font-family: Arial Black, Gadget, sans-serif;
     color: white;
     font-weight: bolder;
     font-size: 36px;
     text-align: center;
+    background-size: cover;
+    line-height: 50px;
+    padding-top: 50px;
 
 }
 
 .caballero {
-	display: block;
-    width: 624px;
-    height: 250px;
     background: url(images/sk8er-1.png) no-repeat;
-    clear: both;
-    border: 5px solid white;
     font-family: Arial Black, Gadget, sans-serif;
     color: white;
     font-weight: bolder;
     font-size: 36px;
-    text-align: center;
-    background-position-y: -61px;
+    text-align: center; 
+    background-size: cover;
+    background-position-y: -94px;
 
 }
 
-#guerrero {
-	width: 337px;
-    height: 482px;
-    display: inline-block;
+.guerrero {
     background: url(images/sk8er-2.png) no-repeat;
-    background-position: -391px;
-    border: 5px solid white;
-    clear: both;
     font-family: Arial Black, Gadget, sans-serif;
     color: white;
     font-weight: bolder;
     font-size: 36px;
     text-align: center;
+    background-position: -340px;
+    background-size: cover;
+    padding-top: 125px;
 
 } 
 
-.skatername1 {
-	margin-top: 50px;
-}
-
-.skatername2 {
-	margin-top: 70px;
-}
-
-.skatername3 {
-	margin-top: 120px;
-}
-
-#fullcollage {
-    clear: both;
-    margin: 0 auto;
-    width: 79%;
-    height: 100%;
-    padding: 15px 0px;
-}
 
 div.socialmedia {
 	float: right;
@@ -251,7 +249,7 @@ ul {
 	float: left;
 	width: 100%;
 	padding:0;
-	margin: 0;
+	margin: 3px;
 
 
 }
@@ -308,22 +306,50 @@ ul {
 	padding: 5px;
 }
 
+#rectangle {
+    width: 220px;
+    height: 100px;
+    background: #B4292E;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+    position:absolute;
+	left: -40px;
+    top: 1065px;
+    margin-left: 44px;
+    line-height: 100px;
+}
+
+#triangle_right {
+    width: 0;
+    height: 0;
+    border-top: 46px solid transparent;
+    border-left: 28px solid #B4292E;
+    border-bottom: 54px solid transparent;
+    position:absolute;
+    top:0;
+    right:-27px;
+}
+
 #skateboardimages {
 	background-color: white;
-    width: 971px;
-    height: 270px;
-    margin-left: 130px;
-    float: center;
+    width: 911px;
+    height: 300px;
+    margin-left: 0px;
+    clear: both;
 }
 
 #skateboards > li {
 	display: inline;
-	margin: 10px;
+	margin-left: 15px;
 	float: center;
 }
 
 #skateboards {
-	padding-left: 50px;
+	margin-top: 10px;
+	margin-left: 35px;
 }
 
 .column_contact {
@@ -347,9 +373,9 @@ ul {
 	height: 350px;
 	background-color: white;
 	clear: both;
-	margin-left: 129px;
+	margin-left: 0px;
 	margin-top: 40px;
-	padding-top: 10px;
+	padding-top: 0px;
 }
 
 .socialmediafooter {
