@@ -55,12 +55,19 @@ html, body {
 .column {
 	background-color: white;
 	float: left;
-	width: 320px;
-	height: 400px;
-	margin-left: 10px;
+	width: 318px;
+	height: 370px;
+	margin-left: 0px;
 	margin-top: 50px
+}
 
+.column:nth-child(2) {
+margin-left: 10px;
 
+}
+
+.column:nth-child(3) {
+	margin-left: 10px;
 }
 
 #s8ernews {
@@ -115,7 +122,7 @@ html, body {
 
 #container {
   text-align:center;
-  width:1035px;
+  width:1000px;
   margin:50px auto;
   clear: both;
 }
@@ -147,8 +154,8 @@ li {
 }
 
  .item:nth-child(4) {
-   height:405px;
-   margin-top:-200px;
+   height:410px;
+   margin-top:-205px;
    line-height:50px;
  }
 
@@ -335,7 +342,7 @@ ul {
 
 #skateboardimages {
 	background-color: white;
-    width: 911px;
+    width: 970px;
     height: 300px;
     margin-left: 0px;
     clear: both;
