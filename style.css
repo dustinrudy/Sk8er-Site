@@ -142,7 +142,7 @@ li {
   border:5px solid #fff;
   color:#fff;
   line-height:200px;
-  width:296px;
+  width:313px;
   height:200px;
   float:left;
   margin: 5px;
@@ -150,7 +150,7 @@ li {
 
 .item:nth-child(3) {
   clear:left;
-  width:600px;
+  width:635px;
 }
 
  .item:nth-child(4) {
@@ -159,10 +159,6 @@ li {
    line-height:50px;
  }
 
-#threeimgs { 
-    display: inline-block;
-    float: left;
-}
 .mountain {
     background: url(images/sk8er-4.png) no-repeat 100% 100%;
     font-family: Arial Black, Gadget, sans-serif;
@@ -323,7 +319,7 @@ ul {
     font-family: Arial, Helvetica;
     font-weight: bold;
     position:absolute;
-	left: -40px;
+	left: -185px;
     top: 1065px;
     margin-left: 44px;
     line-height: 100px;
@@ -345,7 +341,9 @@ ul {
     width: 970px;
     height: 300px;
     margin-left: 0px;
+    padding-left: 28px;
     clear: both;
+    margin-top: 5px;
 }
 
 #skateboards > li {
